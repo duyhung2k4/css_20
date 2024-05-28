@@ -1,0 +1,21 @@
+header {
+    width: calc(100% - 2 * 8%);
+    margin-left: 8%;
+    padding: 16px 0px;
+
+}
+
+header p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+header p:first-child {
+    color: #C32022;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+header p:first-child > span {
+    color: #344971;
+}
