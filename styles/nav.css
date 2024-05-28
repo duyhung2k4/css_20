@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    height: 60px;
+    background-color: #004370;
+    padding: 0px 8%;
+}
+
+nav img {
+    width: 24px;
+    margin-right: -20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}

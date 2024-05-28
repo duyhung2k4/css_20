@@ -1,0 +1,86 @@
+.family {
+    border-radius: 8px;
+    border: 1px solid rgb(189, 189, 255);
+    margin-top: 50px;
+}
+
+.family > .title {
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(189, 189, 255);
+    padding: 16px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.family_list_news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 30px;
+}
+
+.family_news {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: calc(100% / 3);
+    padding: 0px 24px;
+}
+
+.family_news .per {
+    position: absolute;
+    background-color: red;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.family_list_news img {
+    width: 50%;
+}
+
+.family_news_info {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-left: 30px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.family_news_info p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.family_news_info .sale_price {
+    color: red;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.family_news_info .price {
+    color: black;
+    text-decoration-line: line-through;
+    margin-top: 8px;
+}
+
+.family_news_info button {
+    margin-top: 20px;
+    border: 0px;
+    background-color: #EB7A1E;
+    font-weight: 600;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
